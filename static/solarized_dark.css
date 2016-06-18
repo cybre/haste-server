@@ -15,7 +15,7 @@ pre .diff .header,
 pre .doctype,
 pre .lisp .string,
 pre .javadoc {
-  color: #586e75;
+  color: #999999;
   font-style: italic;
   display: inline-block;
   line-height: 1em;
@@ -29,7 +29,7 @@ pre .method,
 pre .addition,
 pre .css .tag,
 pre .lisp .title {
-  color: #859900;
+  color: #cc99cc;
 }
 
 pre .number,
@@ -40,7 +40,7 @@ pre .phpdoc,
 pre .tex .formula,
 pre .regexp,
 pre .hexcolor {
-  color: #2aa198;
+  color: #f99157;
 }
 
 pre .title,
@@ -55,7 +55,7 @@ pre .identifier,
 pre .title .keymethods,
 pre .id,
 pre .header {
-  color: #268bd2;
+  color: #6699cc;
 }
 
 pre .tag .title,
@@ -73,7 +73,7 @@ pre .constant,
 pre .class .title,
 pre .parent,
 pre .haskell .label {
-  color: #b58900;
+  color: #f2777a;
 }
 
 pre .preprocessor,
@@ -87,7 +87,7 @@ pre .attr_selector,
 pre .important,
 pre .subst,
 pre .cdata {
-  color: #cb4b16;
+  color: #99cc99;
 }
 
 pre .deletion {
@@ -96,5 +96,6 @@ pre .deletion {
 
 pre .tex .formula,
 pre .code {
-  background: #073642;
+  background: #2d2d2d;
+  font-family: Hack, monospace;
 }
